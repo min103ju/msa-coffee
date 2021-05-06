@@ -51,10 +51,11 @@ subprojects {
 	*/
 
 	dependencies {
-		annotationProcessor 'org.projectlombok:lombok'
-		compile 'org.projectlombok:lombok'
+		compile 'org.projectlombok:lombok:1.18.8'
+		annotationProcessor 'org.projectlombok:lombok:1.18.8'
 		compile 'org.projectlombok:lombok-utils:1.18.8'
 		compile 'junit:junit:4.13-beta-3'
+
 
 		testCompile 'org.springframework.boot:spring-boot-starter-test'
 	}
